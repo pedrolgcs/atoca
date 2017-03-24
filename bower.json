@@ -1,0 +1,26 @@
+{
+  "name": "atoca",
+  "homepage": "https://github.com/pedrolgcs/atoca",
+  "authors": [
+    "Pedro <pedro.lg.cs@gmail.com>"
+  ],
+  "description": "Site pessoal",
+  "main": "index",
+  "keywords": [
+    "Developer",
+    "AToca"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "bootstrap-sass": "^3.3.7"
+  }
+}
