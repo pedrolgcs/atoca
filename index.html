@@ -4,6 +4,8 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <!-- lightbox2 !-->
+      <link rel="stylesheet" href="bower_components/lightbox2/dist/css/lightbox.min.css">
       <link rel="stylesheet" href="css/plugins.css">
       <link rel="stylesheet" href="css/geral.css">
       <link rel="stylesheet" href="css/home.css">
@@ -21,7 +23,9 @@
                   <span class="icon-bar"></span>
                </button>
                <!-- <a class="navbar-brand logo" href="#">AToca</a> !-->
-               <img src="http://placehold.it/70x50" class="img-responsive">
+               <a href="index.html">
+                  <img src="http://placehold.it/70x50" class="img-responsive">
+               </a>
             </div>
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                <ul class="nav navbar-nav navbar-right">
@@ -41,9 +45,9 @@
                   "Nós te mostrare-mos até onde vai a toca do coelho"
                </p>
                <p>
-                  <a href="" target="_blank"><i class="fa fa-facebook-square fa-lg facebook" aria-hidden="true"></i></a> //
-                  <a href="" target="_blank"><i class="fa fa-instagram fa-lg instagram" aria-hidden="true"></i></a> //
-                  <a href="https://github.com/pedrolgcs" target="_blank"><i class="fa fa-github-alt fa-lg github" aria-hidden="true"></i></a>
+                  <i class="fa fa-cogs" aria-hidden="true"></i> -
+                  <i class="fa fa-battery-three-quarters" aria-hidden="true"></i> -
+                  <i class="fa fa-rocket" aria-hidden="true"></i>
                </p>
             </div>
          </div>
@@ -84,22 +88,34 @@
          <section class="tecnologias">
             <div class="container">
                <div class="html5">
-                  <img src="images/icones/html5.png" alt="html5" class="img-responsive center-block sr-icons">
+                  <figure>
+                     <img src="images/icones/html5.png" alt="html5" class="img-responsive center-block sr-icons">
+                  </figure>
                </div>
                <div class="js">
-                  <img src="images/icones/js.png" alt="html5" class="img-responsive center-block sr-icons">
+                  <figure>
+                     <img src="images/icones/js.png" alt="html5" class="img-responsive center-block sr-icons">
+                  </figure>
                </div>
                <div class="photoshop">
-                  <img src="images/icones/photoshop.png" alt="photoshop" class="img-responsive center-block sr-icons">
+                  <figure>
+                     <img src="images/icones/photoshop.png" alt="photoshop" class="img-responsive center-block sr-icons">
+                  </figure>
                </div>
                <div class="wordpress">
-                  <img src="images/icones/wordpress.png" alt="photoshop" class="img-responsive center-block sr-icons">
+                  <figure>
+                     <img src="images/icones/wordpress.png" alt="photoshop" class="img-responsive center-block sr-icons">
+                  </figure>
                </div>
                <div class="atom">
-                  <img src="images/icones/atom.png" alt="atom IDE" class="img-responsive center-block sr-icons">
+                  <figure>
+                     <img src="images/icones/atom.png" alt="atom IDE" class="img-responsive center-block sr-icons">
+                  </figure>
                </div>
                <div class="linux">
-                  <img src="images/icones/linux.png" alt="linux Debian" class="img-responsive center-block sr-icons">
+                  <figure>
+                     <img src="images/icones/linux.png" alt="linux Debian" class="img-responsive center-block sr-icons">
+                  </figure>
                </div>
             </div>
          </section>
@@ -133,5 +149,6 @@
    <script src="bower_components/jquery/dist/jquery.min.js"></script>
    <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
    <script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
+   <script src="bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
    <script src="js/efect.js"></script>
 </html>
