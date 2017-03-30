@@ -1,10 +1,66 @@
 .membros
    font-family: 'Open Sans', sans-serif
    color: $preto-claro
+   background:
+      image: url('../images/fundo/cubes.png')
    h1
       text-align: center
       font-weight: $regular
       color: $preto-claro
 
 .lista-membros
-   margin-top: 50px
+   margin-top: 30px
+
+   .facebook
+      color: #3b5998
+      &:hover
+         color: #55acee
+   .instagram
+      color: #bc2a8d
+      &:hover
+         color: #8a3ab9
+   .github
+      color: #f54e2a
+      &:hover
+         color: #fbad50
+
+   .pedro
+      +make-sm-column(6)
+      +make-xs-column(12)
+      padding-bottom: 20px
+      figure
+         img
+            filter: grayscale(100%)
+            transition-duration: 0.7s
+            &:hover
+               filter: grayscale(0%)
+               transition-duration: 0.7s
+         figcaption
+            text-align: center
+            p
+               font-weight: $regular
+               font-size: 20px
+               padding-top: 20px
+               text-align: center
+            a
+               padding: 5px
+
+   .janaina
+      +make-sm-column(6)
+      +make-xs-column(12)
+      padding-bottom: 20px
+      figure
+         img
+            filter: grayscale(100%)
+            transition-duration: 0.7s
+            &:hover
+               filter: grayscale(0%)
+               transition-duration: 0.7s
+         figcaption
+            text-align: center
+            p
+               font-weight: $regular
+               font-size: 20px
+               padding-top: 20px
+            a
+               padding: 5px
