@@ -24,7 +24,7 @@
       &:hover
          color: #fbad50
 
-   .pedro
+   .membro
       +make-sm-column(6)
       +make-xs-column(12)
       padding-bottom: 20px
@@ -37,30 +37,15 @@
                transition-duration: 0.7s
          figcaption
             text-align: center
-            p
+            .nome
                font-weight: $regular
                font-size: 20px
                padding-top: 20px
                text-align: center
-            a
-               padding: 5px
-
-   .janaina
-      +make-sm-column(6)
-      +make-xs-column(12)
-      padding-bottom: 20px
-      figure
-         img
-            filter: grayscale(100%)
-            transition-duration: 0.7s
-            &:hover
-               filter: grayscale(0%)
-               transition-duration: 0.7s
-         figcaption
-            text-align: center
-            p
-               font-weight: $regular
-               font-size: 20px
-               padding-top: 20px
+            .cargo
+               font-size: 17px
+               margin-top: -5px
+               text-align: center
+               font-weight: $light
             a
                padding: 5px
