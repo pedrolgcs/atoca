@@ -11,12 +11,12 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('css'));
 });
 
-// task watch
+// task watch do sass
 gulp.task('watch', function () {
     gulp.watch('sass/**/*.sass', ['sass']);
 });
 
-// task imagemin
+// task para reduzir o tamanho das imagens (imagemin)
 gulp.task('imagemin', function () {
     return gulp.src('images/normal/**/**')
         .pipe(imagemin({
