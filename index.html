@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="images/imagemin/logo.png" />
-    <!-- lightbox2 !-->
-    <link rel="stylesheet" href="bower_components/lightbox2/dist/css/lightbox.min.css">
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/geral.css">
     <link rel="stylesheet" href="css/home.css">
@@ -28,10 +26,10 @@
                </button>
                 <!-- <a class="navbar-brand logo" href="#">AToca</a> !-->
                 <a href="index.html">
-                    <img src="images/imagemin/logo.png" class="img-responsive">
+                    <img src="images/imagemin/logo.png" class="img-responsive wow tada" data-wow-duration="2s" data-wow-delay="0.3s">
                 </a>
             </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse wow lightSpeedIn" data-wow-duration="1.5s" data-wow-delay="0.3s" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="index.html">início <span class="sr-only">(current)</span></a></li>
                     <li><a href="sobre.html">sobre</a></li>
@@ -64,14 +62,14 @@
                 <h1>Serviços</h1>
                 <hr>
                 <div class="icones-servicos">
-                    <div class="web">
+                    <div class="web wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.3s">
                         <i class="fa fa-desktop fa-3x" aria-hidden="true"></i>
                         <h3>Criação de sites</h3>
                         <p>
                             Utilizamos as novas tecnologias na criação de site, afim de conseguir a melhor experiência possivel para o usuário.
                         </p>
                     </div>
-                    <div class="hospedagem">
+                    <div class="hospedagem wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.4s">
                         <i class="fa fa-server fa-3x" aria-hidden="true"></i>
                         <h3>Hospedagem</h3>
                         <p>
@@ -79,14 +77,14 @@
                             para nossos clientes.
                         </p>
                     </div>
-                    <div class="consultoria">
+                    <div class="consultoria wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.5s">
                         <i class="fa fa-rocket fa-3x" aria-hidden="true"></i>
                         <h3>Consultoria</h3>
                         <p>
                             Auxiliamos você e sua empresa na compra de equipamentos e configurações técnicas em <strong> TI</strong>.
                         </p>
                     </div>
-                    <div class="manutencao">
+                    <div class="manutencao wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.6s">
                         <i class="fa fa-wrench fa-3x" aria-hidden="true"></i>
                         <h3>Manutenção</h3>
                         <p>
@@ -101,32 +99,32 @@
             <div class="container">
                 <div class="html5">
                     <figure>
-                        <img src="images/imagemin/icones/html5.png" alt="html5" class="img-responsive center-block sr-icons">
+                        <img src="images/imagemin/icones/html5.png" alt="html5" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.3s">
                     </figure>
                 </div>
                 <div class="js">
                     <figure>
-                        <img src="images/imagemin/icones/js.png" alt="html5" class="img-responsive center-block sr-icons">
+                        <img src="images/imagemin/icones/js.png" alt="html5" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
                     </figure>
                 </div>
                 <div class="photoshop">
                     <figure>
-                        <img src="images/imagemin/icones/photoshop.png" alt="photoshop" class="img-responsive center-block sr-icons">
+                        <img src="images/imagemin/icones/photoshop.png" alt="photoshop" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
                     </figure>
                 </div>
                 <div class="wordpress">
                     <figure>
-                        <img src="images/imagemin/icones/wordpress.png" alt="photoshop" class="img-responsive center-block sr-icons">
+                        <img src="images/imagemin/icones/wordpress.png" alt="photoshop" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.6s">
                     </figure>
                 </div>
                 <div class="atom">
                     <figure>
-                        <img src="images/imagemin/icones/atom.png" alt="atom IDE" class="img-responsive center-block sr-icons">
+                        <img src="images/imagemin/icones/atom.png" alt="atom IDE" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
                     </figure>
                 </div>
                 <div class="linux">
                     <figure>
-                        <img src="images/imagemin/icones/linux.png" alt="linux Debian" class="img-responsive center-block sr-icons">
+                        <img src="images/imagemin/icones/linux.png" alt="linux Debian" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.8s">
                     </figure>
                 </div>
             </div>
@@ -162,8 +160,23 @@
 </body>
 <script src="bower_components/jquery/dist/jquery.min.js"></script>
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-<script src="bower_components/scrollreveal/dist/scrollreveal.min.js"></script>
-<script src="bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
-<script src="js/efect.js"></script>
-
+<script src="bower_components/wow/dist/wow.min.js"></script>
+<!-->  inicializa o wow <!-->
+<script>
+    var wow = new WOW(
+    {
+        boxClass:     'wow',      // animated element css class (default is wow)
+        animateClass: 'animated', // animation css class (default is animated)
+        offset:       0,          // distance to the element when triggering the animation (default is 0)
+        mobile:       true,       // trigger animations on mobile devices (default is true)
+        live:         true,       // act on asynchronously loaded content (default is true)
+        callback:     function(box) {
+        // the callback is fired every time an animation is started
+        // the argument that is passed in is the DOM node being animated
+        },
+        scrollContainer: null // optional scroll container selector, otherwise use window
+    }
+    );
+    wow.init();
+</script>
 </html>

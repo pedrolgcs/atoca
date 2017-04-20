@@ -22,7 +22,9 @@
   "dependencies": {
     "font-awesome": "^4.7.0",
     "bootstrap-sass": "^3.3.7",
-    "lightbox2": "^2.9.0",
-    "scrollreveal": "^3.3.4"
+    "lightbox2": "^2.9.0"
+  },
+  "devDependencies": {
+    "wow": "wowjs#^1.1.2"
   }
 }

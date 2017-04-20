@@ -6,6 +6,22 @@
    padding: 10px
    font-size: 21px
 
+nav
+    li
+        a
+            &:after
+                content: ""
+                display: table
+                margin: 5px auto 0
+                width: 0%
+                height: 2px
+                background-color: $preto-claro
+                transition: .3s
+
+            &:hover
+                &:after
+                    width: 50%
+
 header
    .descricao
       color: $branco
@@ -20,16 +36,3 @@ header
          text-align: center
          font-size: 23px
          font-weight: $light
-
-         .facebook
-            color: #3b5998
-            &:hover
-               color: #55acee
-         .instagram
-            color: #bc2a8d
-            &:hover
-               color: #8a3ab9
-         .github
-            color: #f54e2a
-            &:hover
-               color: #fbad50
