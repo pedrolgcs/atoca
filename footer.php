@@ -10,7 +10,7 @@
 <script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
 <script src="bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
 <script src="bower_components/wow/dist/wow.min.js"></script>
-<!-->  inicializa o wow <!-->
+<!--  inicializa o wow !-->
 <script>
     var wow = new WOW(
     {

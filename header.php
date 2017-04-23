@@ -8,7 +8,7 @@
     <link rel="icon" href="images/imagemin/logo.png" />
     <link rel="stylesheet" href="css/plugins.css">
     <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/<?php echo $style; ?>.css">
     <title>AToca</title>
 </head>
 
@@ -25,14 +25,14 @@
                   <span class="icon-bar"></span>
                </button>
                 <!-- <a class="navbar-brand logo" href="#">AToca</a> !-->
-                <a href="index.html">
+                <a href="index.php">
                     <img src="images/imagemin/logo.png" class="img-responsive wow tada" data-wow-duration="2s" data-wow-delay="0.3s">
                 </a>
             </div>
-            <div class="collapse navbar-collapse wow lightSpeedIn" data-wow-duration="1.5s" data-wow-delay="0.3s" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse wow bounceIn" data-wow-duration="1.5s" data-wow-delay="0.3s" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">início <span class="sr-only">(current)</span></a></li>
-                    <li><a href="sobre.html">sobre</a></li>
+                    <li><a href="index.php">início <span class="sr-only">(current)</span></a></li>
+                    <li><a href="sobre.php">sobre</a></li>
                     <li><a href="#">posts</a></li>
                 </ul>
             </div>
