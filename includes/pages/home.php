@@ -15,8 +15,7 @@
                 <i class="fa fa-server fa-3x" aria-hidden="true"></i>
                 <h3>Hospedagem</h3>
                 <p>
-                    Contamos com um servidor na <strong>DigitalOcean</strong> para garantir alta performace e desempenho
-                    para nossos clientes.
+                    Contamos com um servidor na <strong>DigitalOcean</strong> para garantir alta performace e desempenho para nossos clientes.
                 </p>
             </div>
             <div class="consultoria wow flipInX" data-wow-duration="1.5s" data-wow-delay="0.5s">
@@ -30,7 +29,7 @@
                 <i class="fa fa-wrench fa-3x" aria-hidden="true"></i>
                 <h3>Manutenção</h3>
                 <p>
-                    Realizamos serviços de formatação, backup, recuperação de arquivos e limpeza de desktops.
+                    Realizamos serviços de formatação, backup, limpeza e recureração de arquivos
                 </p>
             </div>
         </div>
