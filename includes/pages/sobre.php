@@ -6,8 +6,8 @@
         <div class="lista-trabalhos">
             <div class="trabalho">
                 <figure>
-                    <a href="images/imagemin/portifolio/site-sobradinho.jpeg" data-lightbox="image-1" data-title="Pizzaria e lanchonete sobradinho">
-                        <img src="images/imagemin/portifolio/site-sobradinho.jpeg" class="img-responsive center-block" alt="Pizzaria Sobradinho">
+                    <a href="<?php bloginfo('template_url'); ?>/images/imagemin/portifolio/site-sobradinho.jpeg" data-lightbox="image-1" data-title="Pizzaria e lanchonete sobradinho">
+                        <img src="<?php bloginfo('template_url'); ?>/images/imagemin/portifolio/site-sobradinho.jpeg" class="img-responsive center-block" alt="Pizzaria Sobradinho">
                     </a>
                     <figcaption>
                         <h3>Sobradinho</h3>
@@ -27,7 +27,7 @@
         <div class="lista-membros">
             <div class="membro">
                 <figure>
-                    <img src="images/imagemin/team/pedro.jpeg" alt="" class="img-responsive img-circle center-block wow fadeInLeftBig">
+                    <img src="<?php bloginfo('template_url'); ?>/images/imagemin/team/pedro.jpeg" alt="" class="img-responsive img-circle center-block wow fadeInLeftBig">
                     <figcaption>
                         <p class="nome">Pedro Henrique</p>
                         <p class="cargo">Desenvolvedor</p>

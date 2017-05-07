@@ -2,14 +2,14 @@
     <!-- rodape !-->
     <footer>
         <div class="container">
-            <p>Copyright (c) 2017 Copyright Holder All Rights Reserved - AToca</p>
+            <p>Copyright (c) <?php echo date(Y); ?> Copyright Holder All Rights Reserved - AToca</p>
         </div>
     </footer>
 </body>
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-<script src="bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
-<script src="bower_components/wow/dist/wow.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/lightbox2/dist/js/lightbox-plus-jquery.min.js"></script>
+<script src="<?php bloginfo('template_url'); ?>/bower_components/wow/dist/wow.min.js"></script>
 <!--  inicializa o wow !-->
 <script>
     var wow = new WOW(

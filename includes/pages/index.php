@@ -29,7 +29,7 @@
                 <i class="fa fa-wrench fa-3x" aria-hidden="true"></i>
                 <h3>Manutenção</h3>
                 <p>
-                    Realizamos serviços de formatação, backup, limpeza e recureração de arquivos
+                    Realizamos serviços de formatação, backup, recuperação de arquivos e limpeza.
                 </p>
             </div>
         </div>
@@ -40,37 +40,37 @@
     <div class="container">
         <div class="html5">
             <figure>
-                <img src="images/imagemin/icones/html5.png" alt="html5" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
+                <img src="<?php bloginfo('template_url'); ?>/images/imagemin/icones/html5.png" alt="html5" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
                     data-wow-delay="0.3s">
             </figure>
         </div>
         <div class="js">
             <figure>
-                <img src="images/imagemin/icones/js.png" alt="javascript" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
+                <img src="<?php bloginfo('template_url'); ?>/images/imagemin/icones/js.png" alt="javascript" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
                     data-wow-delay="0.4s">
             </figure>
         </div>
         <div class="photoshop">
             <figure>
-                <img src="images/imagemin/icones/photoshop.png" alt="photoshop" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
+                <img src="<?php bloginfo('template_url'); ?>/images/imagemin/icones/photoshop.png" alt="photoshop" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
                     data-wow-delay="0.5s">
             </figure>
         </div>
         <div class="wordpress">
             <figure>
-                <img src="images/imagemin/icones/wordpress.png" alt="wordpress" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
+                <img src="<?php bloginfo('template_url'); ?>/images/imagemin/icones/wordpress.png" alt="wordpress" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
                     data-wow-delay="0.6s">
             </figure>
         </div>
         <div class="visual">
             <figure>
-                <img src="images/imagemin/icones/visual-studio.png" alt="visual-studio" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
+                <img src="<?php bloginfo('template_url'); ?>/images/imagemin/icones/visual-studio.png" alt="visual-studio" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
                     data-wow-delay="0.7s">
             </figure>
         </div>
         <div class="linux">
             <figure>
-                <img src="images/imagemin/icones/linux.png" alt="linux" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
+                <img src="<?php bloginfo('template_url'); ?>/images/imagemin/icones/linux.png" alt="linux" class="img-responsive center-block wow fadeInUp" data-wow-duration="1s"
                     data-wow-delay="0.8s">
             </figure>
         </div>
